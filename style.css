@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 350px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.13);
+  padding: 24px 32px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  position: relative;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #0074d9;
+  outline: none;
+}
+
+.error-message {
+  color: #d90429;
+  font-size: 0.88em;
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  height: 16px;
+}
+
+input.invalid {
+  border-color: #d90429;
+  background: #fff0f0;
+}
+
+button {
+  width: 100%;
+  background: #0074d9;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#success {
+  color: #28a745;
+  text-align: center;
+  margin-top: 14px;
+  font-weight: bold;
+}
